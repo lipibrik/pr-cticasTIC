@@ -8,7 +8,7 @@ class Perro(Animal):
     def __init__(self, nombre, raza):
         super().__init__(nombre)
         self.raza = raza
-        print("Perro creado")
+        print("Perro creado. Guau!")
     def ladrar(self):
         print("Guau guau")
     def queRazaSoy(self):
