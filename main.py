@@ -20,7 +20,7 @@ class Cerdo(Animal):
     def __init__(self, nombre, DO):
         super().__init__(nombre)
         self.DO = DO
-        print("Cerdo creado. Oink")
+        print("Cerdo creado. Oink oink")
     def gruñir(self):
         print("Oink oink")
 class Granja:
